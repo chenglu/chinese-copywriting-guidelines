@@ -1,23 +1,42 @@
 # 中文文案排版指北
-
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/chinese-copywriting-guidelines/localized.svg)](https://crowdin.com/project/chinese-copywriting-guidelines) [![Greenkeeper badge](https://badges.greenkeeper.io/sparanoid/chinese-copywriting-guidelines.svg)](https://greenkeeper.io/) [![devDependency Status](https://david-dm.org/sparanoid/chinese-copywriting-guidelines/dev-status.svg)](https://david-dm.org/sparanoid/chinese-copywriting-guidelines#info=devDependencies) [![Built with Almace Scaffolding](https://d349cztnlupsuf.cloudfront.net/amsf-badge.svg)](http://sparanoid.com/note/chinese-copywriting-guidelines/)
+[查看最新版本](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)
 
 统一中文文案、排版的相关用法，降低团队成员之间的沟通成本，增强网站气质。
 
-其他语言：
+Other languages:
 
-- [英语](README.en-US.md)
-- [繁体中文](README.md)
-- [简体中文](README.zh-CN.md)
-- [简体中文](https://github.com/mzlogin/chinese-copywriting-guidelines)（外部链接）
+- [English](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.en-US.md)
+- [Chinese Traditional](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.md)
 
-* * *
+-----
 
 ## 目录
 
-{:.no_toc}
+<!-- vim-markdown-toc GFM -->
 
-- TOC {:toc}
+* [空格](#空格)
+    * [中英文之间需要增加空格](#中英文之间需要增加空格)
+    * [中文与数字之间需要增加空格](#中文与数字之间需要增加空格)
+    * [数字与单位之间无需增加空格](#数字与单位之间无需增加空格)
+    * [全角标点与其他字符之间不加空格](#全角标点与其他字符之间不加空格)
+    * [`-ms-text-autospace` to the rescue?](#-ms-text-autospace-to-the-rescue)
+* [标点符号](#标点符号)
+    * [不重复使用标点符号](#不重复使用标点符号)
+* [全角和半角](#全角和半角)
+    * [使用全角中文标点](#使用全角中文标点)
+    * [数字使用半角字符](#数字使用半角字符)
+    * [遇到完整的英文整句、特殊名词，其內容使用半角标点](#遇到完整的英文整句特殊名词其內容使用半角标点)
+* [名词](#名词)
+    * [专有名词使用正确的大小写](#专有名词使用正确的大小写)
+    * [不要使用不地道的缩写](#不要使用不地道的缩写)
+* [争议](#争议)
+    * [链接之间增加空格](#链接之间增加空格)
+    * [简体中文使用直角引号](#简体中文使用直角引号)
+* [工具](#工具)
+* [谁在这样做？](#谁在这样做)
+* [参考文献](#参考文献)
+
+<!-- vim-markdown-toc -->
 
 ## 空格
 
@@ -236,6 +255,20 @@ CSS Text Module Level 4 的 [`text-spacing`](https://www.w3.org/TR/css-text-4/#t
 对比用法：
 
 > “老师，‘有条不紊’的‘紊’是什么意思？”
+
+### 全角 / 半角括号的用法
+
+括号是用来做解释和提示用，译者在描述和翻译一个没有共识翻译的英文时，也常放在后面作为原文提示。
+
+本段探讨的是括号关于全角和半角的用法。
+
+当括号里的内容是纯英文的时候，使用半角括号，如：
+
+> 今天我们一起去了星巴克 (StarBucks) 点了一份隐藏菜单里的咖啡。
+
+当括号里的内容是纯中文和中英混合的时候，使用全角括号，如：
+
+> 使用 Flutter 可以方便的发布多平台的应用（Android 和 iOS），它对所有开发者（前端、后端、移动端）们都非常友好。
 
 ## 工具
 
